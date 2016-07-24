@@ -1,0 +1,21 @@
+{
+  "name": "cepave-slack-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "nedb": "^1.8.0",
+    "slackbots": "github:mishk0/slack-bot-api"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Timmy Chang",
+  "license": "MIT"
+}
