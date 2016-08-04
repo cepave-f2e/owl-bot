@@ -33,7 +33,7 @@ module.exports = {
   },
   9: {
     name: '林哲民',
-    en: ''
+    en: 'Jeremy'
   },
   10: {
     name: '張家銓',
@@ -41,7 +41,7 @@ module.exports = {
   },
   11: {
     name: '呂隆一',
-    en: 'Lonely One'
+    en: 'Mike'
   },
   12: {
     name: '王力弘',
@@ -66,5 +66,9 @@ module.exports = {
   17: {
     name: '陳昶吾',
     en: 'Chang Wu'
+  }
+  18: {
+    name: '吳芷儀',
+    en: 'Ji Yi'
   }
 }
