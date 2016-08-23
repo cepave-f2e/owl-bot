@@ -69,6 +69,6 @@ module.exports = {
   },
   18: {
     name: '吳芷儀',
-    en: 'Ji Yi'
+    en: 'Jiyi'
   }
 }
