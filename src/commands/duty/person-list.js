@@ -66,7 +66,7 @@ module.exports = {
   17: {
     name: '陳昶吾',
     en: 'Chang Wu'
-  }
+  },
   18: {
     name: '吳芷儀',
     en: 'Ji Yi'
