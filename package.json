@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cheerio": "^0.22.0",
+    "got": "^6.5.0",
     "moment": "^2.14.1",
     "nedb": "^1.8.0",
     "slackbots": "github:mishk0/slack-bot-api"
