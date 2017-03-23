@@ -1,10 +1,14 @@
-const TOKEN = 'ENTER YOUR SLACK TOKEN'
-const SlackBot = require('slackbots')
+const Botkit = require('botkit')
+const { CEPAVE_SLACK_OWL_BOT_TOKEN, CEPAVE_SLACK_OWL_BOT_WEBHOOK } = process.env
 
-// create a bot
-const bot = new SlackBot({
-  token: TOKEN, // Add a bot https://my.slack.com/services/new/bot and put the token
-  name: 'cepave-ai-plus'
+const controller = Botkit.slackbot({
 })
 
-module.exports = bot
+const bot = controller.spawn({
+  token: CEPAVE_SLACK_OWL_BOT_TOKEN,
+  incoming_webhook: {
+    url: `https://hooks.slack.com/services/${CEPAVE_SLACK_OWL_BOT_WEBHOOK}`
+  }
+})
+
+module.exports = { controller, bot }
