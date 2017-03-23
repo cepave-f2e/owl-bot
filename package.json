@@ -1,23 +1,31 @@
 {
   "name": "cepave-slack-bot",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Cepave Owl Bot in Slack",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.15.3",
+    "botkit": "^0.5.2",
     "cheerio": "^0.22.0",
-    "got": "^6.5.0",
-    "moment": "^2.14.1",
-    "nedb": "^1.8.0",
-    "slackbots": "github:mishk0/slack-bot-api"
+    "moment": "^2.18.1",
+    "nedb": "^1.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-cli": "^19.0.2",
+    "piping": "^1.0.0-rc.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node dev/piping",
+    "start": "node src",
+    "test": ""
   },
   "keywords": [
+    "cepave",
+    "owl",
     "slack",
     "bot"
   ],
-  "author": "Timmy Chang",
-  "license": "MIT"
+  "author": "Cepave F2E Team",
+  "license": "MIT",
+  "repository": "https://github.com/cepave-f2e/slack-bot.git"
 }
